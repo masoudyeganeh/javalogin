@@ -12,10 +12,10 @@ public class Jdbc {
     }
 
     static {
-        DATA_SOURCE.setUrl("jdbc:oracle:thin:@//localhost:1521/xepdb1");
+        DATA_SOURCE.setUrl("jdbc:oracle:thin:@//avdf01.rh:2019/rayannav21c.rh");
         DATA_SOURCE.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-        DATA_SOURCE.setUsername("masoud");
-        DATA_SOURCE.setPassword("1234");
+        DATA_SOURCE.setUsername("n12krp209");
+        DATA_SOURCE.setPassword("n");
     }
 
     public static Connection getConnection() throws SQLException {

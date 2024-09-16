@@ -15,8 +15,6 @@ import java.io.IOException;
 public class Register extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String method = req.getMethod();
-        System.out.println(method);
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String rememberMe = req.getParameter("rememberMe");
